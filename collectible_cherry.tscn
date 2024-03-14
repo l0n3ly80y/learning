@@ -1,5 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://be0u4sw2v76da"]
+[gd_scene load_steps=22 format=3 uid="uid://be0u4sw2v76da"]
 
+[ext_resource type="Script" path="res://collectible_cherry.gd" id="1_7nhsn"]
 [ext_resource type="Texture2D" uid="uid://6n3f2f84sspv" path="res://Fruits/Apple.png" id="1_h4247"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lm4rt"]
@@ -132,6 +133,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_evnr3"]
 
 [node name="Area2D" type="Area2D"]
+script = ExtResource("1_7nhsn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
