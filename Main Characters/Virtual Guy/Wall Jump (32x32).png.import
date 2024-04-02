@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://d1yjma0m5hmqs"
+path="res://.godot/imported/Wall Jump (32x32).png-4b3a7c85ca4e6edb2bd5ff5f1293ad22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Main Characters/Virtual Guy/Wall Jump (32x32).png"
+dest_files=["res://.godot/imported/Wall Jump (32x32).png-4b3a7c85ca4e6edb2bd5ff5f1293ad22.ctex"]
 
 [params]
 

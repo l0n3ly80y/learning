@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://b64oyj7obrada"
+path="res://.godot/imported/Jump (32x32).png-bc22b7b8c26e09f91033ada2112471f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/4 - Winter World/Main Characters/Mask Dude/Jump (32x32).png"
+dest_files=["res://.godot/imported/Jump (32x32).png-bc22b7b8c26e09f91033ada2112471f0.ctex"]
 
 [params]
 

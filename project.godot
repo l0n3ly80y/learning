@@ -10,14 +10,15 @@ config_version=5
 
 [application]
 
-config/name="learning"
-run/main_scene="res://main.tscn"
+config/name="Learning"
+run/main_scene="res://game.tscn"
 config/features=PackedStringArray("4.2", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [rendering]
 

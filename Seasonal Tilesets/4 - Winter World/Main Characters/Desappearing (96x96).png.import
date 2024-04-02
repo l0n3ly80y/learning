@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://vo4m1ihqgd58"
+path="res://.godot/imported/Desappearing (96x96).png-e71717a147ba744d26d67f7f9b53dec8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/4 - Winter World/Main Characters/Desappearing (96x96).png"
+dest_files=["res://.godot/imported/Desappearing (96x96).png-e71717a147ba744d26d67f7f9b53dec8.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://bi0sy7utg8aqo"
+path="res://.godot/imported/Desappearing (96x96).png-d63d74268839a6a14bd2c46a45aa2701.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Main Characters/Desappearing (96x96).png"
+dest_files=["res://.godot/imported/Desappearing (96x96).png-d63d74268839a6a14bd2c46a45aa2701.ctex"]
 
 [params]
 

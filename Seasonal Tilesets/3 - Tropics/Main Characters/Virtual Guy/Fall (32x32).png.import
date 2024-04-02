@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://dpjvuxhbx6dmg"
+path="res://.godot/imported/Fall (32x32).png-e15d04c4de02f1955b044f64fd5deed9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/3 - Tropics/Main Characters/Virtual Guy/Fall (32x32).png"
+dest_files=["res://.godot/imported/Fall (32x32).png-e15d04c4de02f1955b044f64fd5deed9.ctex"]
 
 [params]
 

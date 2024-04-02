@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://5vthjfdrh2du"
+path="res://.godot/imported/Wall Jump (32x32).png-2ddab13b0041346bf5bdf1262fc46cfa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/4 - Winter World/Main Characters/Pink Man/Wall Jump (32x32).png"
+dest_files=["res://.godot/imported/Wall Jump (32x32).png-2ddab13b0041346bf5bdf1262fc46cfa.ctex"]
 
 [params]
 

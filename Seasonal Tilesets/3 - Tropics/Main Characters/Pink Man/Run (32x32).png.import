@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://bm8n0g6gfu16q"
+path="res://.godot/imported/Run (32x32).png-4c89d848742b9bdb561704738c246543.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/3 - Tropics/Main Characters/Pink Man/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-4c89d848742b9bdb561704738c246543.ctex"]
 
 [params]
 

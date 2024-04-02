@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctee3qdoj8fgs"
-path="res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"
+uid="uid://cn07lsiqwx2ty"
+path="res://.godot/imported/Fall (32x32).png-7e27ea5e63d9c90e18a8e70e7d36a4d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://penguin_anim.png"
-dest_files=["res://.godot/imported/penguin_anim.png-b0796ad3578a940595d012e0904ad369.ctex"]
+source_file="res://Seasonal Tilesets/4 - Winter World/Main Characters/Ninja Frog/Fall (32x32).png"
+dest_files=["res://.godot/imported/Fall (32x32).png-7e27ea5e63d9c90e18a8e70e7d36a4d7.ctex"]
 
 [params]
 
