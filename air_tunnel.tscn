@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://bi66j15biu4p4"]
+
+[ext_resource type="Script" path="res://air_tunnel.gd" id="1_uju2d"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xjmoj"]
+size = Vector2(22, 106)
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_yvphx"]
+particle_flag_rotate_y = true
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(-13, 1, 13)
+gravity = Vector3(0, -50, 0)
+scale_min = 1.5
+scale_max = 1.5
+anim_offset_max = 0.9063
+
+[node name="air-tunnel" type="Area2D"]
+script = ExtResource("1_uju2d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -53)
+shape = SubResource("RectangleShape2D_xjmoj")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+amount = 7
+process_material = SubResource("ParticleProcessMaterial_yvphx")
+lifetime = 2.5
+
+[node name="GPUParticles2D2" type="GPUParticles2D" parent="."]
+amount = 5
+process_material = SubResource("ParticleProcessMaterial_yvphx")
+lifetime = 2.5
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

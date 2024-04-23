@@ -13,4 +13,5 @@ func _process(delta):
 func add_points(points):
 	points+=1
 	point_label.text= "points : " + str(points)
+	
 

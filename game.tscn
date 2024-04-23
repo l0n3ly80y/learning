@@ -1,4 +1,4 @@
-[gd_scene load_steps=31 format=3 uid="uid://da0qpk1extfui"]
+[gd_scene load_steps=33 format=3 uid="uid://da0qpk1extfui"]
 
 [ext_resource type="Script" path="res://game.gd" id="1_r4yaj"]
 [ext_resource type="PackedScene" uid="uid://dh5ospvsjc7ua" path="res://player.tscn" id="1_xacqp"]
@@ -17,7 +17,9 @@
 [ext_resource type="Texture2D" uid="uid://8hlm8exbop6s" path="res://Seasonal Tilesets/5 - Misc. universal tiles/Metal_Wire_fence (16 x 16).png" id="14_gqia8"]
 [ext_resource type="Texture2D" uid="uid://4ij7ybea26qu" path="res://Seasonal Tilesets/3 - Tropics/Tropics_entities (16 x 16).png" id="15_u7ojo"]
 [ext_resource type="FontFile" uid="uid://cosnxlogshmko" path="res://nokiafc22.ttf" id="15_yopfx"]
-[ext_resource type="PackedScene" uid="uid://dhhba7mueecur" path="res://jumping_zone.tscn" id="18_pe28q"]
+[ext_resource type="PackedScene" uid="uid://bi66j15biu4p4" path="res://air_tunnel.tscn" id="19_dlbtp"]
+[ext_resource type="PackedScene" uid="uid://bn5latxnf2t6w" path="res://jumpingZone.tscn" id="20_0u7tt"]
+[ext_resource type="PackedScene" uid="uid://ds3l32x1lc5mw" path="res://checkpoint.tscn" id="20_h3amd"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_lot72"]
 
@@ -913,11 +915,12 @@ z_index = -9
 position = Vector2(-700, 0)
 
 [node name="CharacterBody2D" parent="Level_1" instance=ExtResource("1_xacqp")]
+z_index = 10
 position = Vector2(-700, 140)
 script = ExtResource("2_fxslm")
 
 [node name="Camera2D" type="Camera2D" parent="Level_1/CharacterBody2D"]
-zoom = Vector2(3, 3)
+zoom = Vector2(2, 2)
 position_smoothing_enabled = true
 position_smoothing_speed = 7.0
 
@@ -956,5 +959,14 @@ offset_bottom = 115.0
 theme_override_fonts/font = ExtResource("15_yopfx")
 theme_override_font_sizes/font_size = 75
 
-[node name="jump_zone" parent="Level_1" instance=ExtResource("18_pe28q")]
-position = Vector2(256, 84)
+[node name="air-tunnel" parent="Level_1" instance=ExtResource("19_dlbtp")]
+position = Vector2(257, 94)
+
+[node name="jumper" parent="Level_1" instance=ExtResource("20_0u7tt")]
+position = Vector2(192, 80)
+
+[node name="checkpoint" parent="." instance=ExtResource("20_h3amd")]
+position = Vector2(448, 159)
+scale = Vector2(0.07, 0.075)
+
+[connection signal="body_exited" from="Level_1/air-tunnel" to="Level_1/air-tunnel" method="_on_body_exited"]

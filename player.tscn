@@ -1,5 +1,6 @@
-[gd_scene load_steps=39 format=3 uid="uid://dh5ospvsjc7ua"]
+[gd_scene load_steps=47 format=3 uid="uid://dh5ospvsjc7ua"]
 
+[ext_resource type="Texture2D" uid="uid://bi0sy7utg8aqo" path="res://Main Characters/Desappearing (96x96).png" id="1_bck5p"]
 [ext_resource type="Texture2D" uid="uid://8rynffxqvulp" path="res://Main Characters/Ninja Frog/Idle (32x32).png" id="1_cq8u7"]
 [ext_resource type="Texture2D" uid="uid://dfe7ffqrkvhxq" path="res://Main Characters/Ninja Frog/Jump (32x32).png" id="2_t83tk"]
 [ext_resource type="Texture2D" uid="uid://bo5ayfrbaqmt0" path="res://Main Characters/Ninja Frog/Run (32x32).png" id="3_e17n3"]
@@ -7,6 +8,34 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dex0y"]
 size = Vector2(22, 26)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evbwe"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_apxv1"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t606u"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bohn8"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcae2"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ydih3"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5pamx"]
+atlas = ExtResource("1_bck5p")
+region = Rect2(576, 0, 96, 96)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qpr8u"]
 atlas = ExtResource("1_cq8u7")
@@ -140,6 +169,32 @@ region = Rect2(352, 0, 32, 32)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_evbwe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_apxv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t606u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bohn8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcae2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ydih3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5pamx")
+}],
+"loop": true,
+"name": &"despawn",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_qpr8u")
 }, {
 "duration": 1.0,
@@ -269,7 +324,6 @@ shape = SubResource("RectangleShape2D_dex0y")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_schr5")
-animation = &"spawn"
+animation = &"despawn"
 autoplay = "spawn"
-frame_progress = 0.408235
 flip_h = true
